@@ -1,0 +1,24 @@
+{
+"name": "com.unityai.engine",
+"displayName": "AIEngineTest",
+"description": "Paint 3D ivy in the editor and simulate ivy growth. \n\n IMPORTANT: in Package Manager, click 'Samples' below to import default ivy profiles and textures into your project's Assets folder.",
+"version": "1.0.3",
+"unity": "2021.3",
+"license": "GPL-2.0-or-later",
+"documentationUrl": "https://github.com/radiatoryang/hedera/wiki",
+"author": {
+    "name": "Phong",
+    "email": "manoking@126.com",
+    "url": "https://github.com/ManoKing"
+},
+"keywords": [
+    "ivy", "foliage", "environment", "paint", "art", "3d", "world", "env"
+],
+"dependencies": {
+
+},
+"samples": [
+
+]
+ 
+}
