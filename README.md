@@ -54,5 +54,7 @@ You can open the AI Command window from Window > AI Command.
 1，AIShader https://github.com/keijiro/AIShader  
 2，AICommon https://github.com/keijiro/AICommand  
 
-修改API,降低Unity使用版本，支持Unity 2020.3.x  
-将其制作成UPM，方便导入项目  
+## 修改
+1，修改API,降低Unity使用版本，支持Unity 2020.3.x  
+2，将其制作成UPM，方便导入项目  
+3，合并关于ChatGPT的Unity库，支持多种AI生成  
