@@ -23,7 +23,7 @@ ExportedObj/
 *.svd
 *.pdb
 *.opendb
-
+*.log
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
@@ -34,3 +34,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+AIEngine/UserSettings/AIShaderSettings.asset
