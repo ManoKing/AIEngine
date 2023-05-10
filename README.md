@@ -4,9 +4,9 @@
 
   
 使用方法：
-1，打开 Window/Package Manager
-2，选择 +/Add package from git URL...
-3，添加URL: https://github.com/ManoKing/AIEngine.git#1.0.8 
+1，打开 Window/Package Manager  
+2，选择 +/Add package from git URL...  
+3，添加URL: https://github.com/ManoKing/AIEngine.git#1.0.8   
 
 
 ### AI Shader
@@ -51,7 +51,7 @@ You must exclude the directory when sharing your project with others.
 You can open the AI Command window from Window > AI Command.
 
 ## 参考
-1，AIShader https://github.com/keijiro/AIShader
-2，AICommon https://github.com/keijiro/AICommand
-
-将其制作成UPM，方便导入项目
+1，AIShader https://github.com/keijiro/AIShader  
+2，AICommon https://github.com/keijiro/AICommand  
+  
+将其制作成UPM，方便导入项目  
