@@ -1,15 +1,15 @@
-# AIEngine 
+# AIEngine   
 
-## 基于ChatGPT AI自动产生Shader
+## 基于ChatGPT AI自动产生Shader  
 
   
-使用方法：
+使用方法：  
 1，打开 Window/Package Manager  
 2，选择 +/Add package from git URL...  
 3，添加URL: https://github.com/ManoKing/AIEngine.git#1.0.8   
 
 
-### AI Shader
+### AI Shader  
 
 ![GIF](https://user-images.githubusercontent.com/343936/223034386-cf69f2a2-d8ec-4537-9f1b-37051542b1cd.gif)
 
@@ -53,5 +53,6 @@ You can open the AI Command window from Window > AI Command.
 ## 参考
 1，AIShader https://github.com/keijiro/AIShader  
 2，AICommon https://github.com/keijiro/AICommand  
-  
+
+修改API,降低Unity使用版本，支持Unity 2020.3.x  
 将其制作成UPM，方便导入项目  
