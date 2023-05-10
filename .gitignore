@@ -35,3 +35,4 @@ sysinfo.txt
 *.apk
 *.unitypackage
 AIEngine/UserSettings/AIShaderSettings.asset
+AIEngine/UserSettings/AICommandSettings.asset

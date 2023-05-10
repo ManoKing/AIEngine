@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 60af7ebd60e00fc41a5548f8dfcb80bc
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 2fb4f8eb999c8eb46b04aaa444d95a08, type: 3}
+  _prompt: "\u521B\u5EFA\u4E00\u4E2A\u7B80\u5355\u7684\u9EC4\u8272\u7684Shader"
+  _cached: "Shader \"Unlit/Yellow\"\n{\n    Properties\n    {\n        _MainColor
+    (\"Color\", Color) = (1,1,0,1)\n    }\n\n    SubShader\n    {\n        Tags {
+    \"RenderType\"=\"Opaque\" }\n        LOD 100\n\n        Pass\n        {\n           
+    CGPROGRAM\n            #pragma vertex vert\n            #pragma fragment frag\n\n           
+    struct appdata\n            {\n                float4 vertex : POSITION;\n           
+    };\n\n            struct v2f\n            {\n                float4 vertex :
+    SV_POSITION;\n            };\n\n            float4 _MainColor;\n\n           
+    v2f vert (appdata v)\n            {\n                v2f o;\n               
+    o.vertex = UnityObjectToClipPos(v.vertex);\n                return o;\n           
+    }\n\n            fixed4 frag (v2f i) : SV_Target\n            {\n               
+    return _MainColor;\n            }\n            ENDCG\n        }\n    }\n    FallBack
+    \"Diffuse\"\n}"
